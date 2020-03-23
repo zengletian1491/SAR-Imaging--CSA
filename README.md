@@ -1,4 +1,4 @@
-# Synthetic-Aperture-Radar-SAR-Imaging-algorithms——chirp scaling algorithm
+# SAR Imaging——chirp scaling algorithm(CSA)
 
 1.Run
 
