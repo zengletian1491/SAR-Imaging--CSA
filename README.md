@@ -1,4 +1,7 @@
-# Synthetic-Aperture-Radar-SAR-Imaging-algorithms——————chirp scaling algorithm
+# Synthetic-Aperture-Radar-SAR-Imaging-algorithms——chirp scaling algorithm
+
+1.Run
+You can run the following four .m programs directly on Matlab. These programs are tested on Matlab 2015a.
 
 1）Final_cs_broadside.m : 
 working conditions：height of flying platform is 0；broadside mode；slant plane imaging
@@ -14,7 +17,5 @@ Improved versions for squint mode imaging:
 working conditions：height of flying platform is 0；squint angle is 5 degree；slant plane imaging; Fs = 400e6.
 不考虑高度、斜视 5 度、斜平面cs成像算法，效果好
 
-4)Final_cs_squint5_new_1.m : 
-working conditions：height of flying platform is 0；squint angle is 5 degree；slant plane imaging; Fs = 200e6.
-Range upsampling is performed to avoid two-spectrum folding.
-不考虑高度、斜视 5 度、斜平面cs成像算法，效果好
+2.Note
+You can change the value of "nan" (in the .m programs), making it satisfy the length of a synthetic aperture.
